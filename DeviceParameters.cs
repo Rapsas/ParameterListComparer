@@ -25,10 +25,9 @@ namespace ParameterListComparer
         [JsonPropertyName("scale")]
         public string? Scale { get; set; }
 
-        public (int parameterMatchCount, List<string> differences) Compare(DeviceParameters other)
+        public CompareResults Compare(DeviceParameters other)
         {
-            var parameterMatchCount = 0;
-            var differences = new List<string>();
+            var results = new CompareResults();
             var locationSpecifierPrefix = $"At address {Address}: ";
 
             foreach (var property in typeof(DeviceParameters).GetProperties())
@@ -38,7 +37,7 @@ namespace ParameterListComparer
                 
                 if (Equals(thisValue, otherValue))
                 {
-                    parameterMatchCount++;
+                    results.Score++;
                 }
                 else
                 {
@@ -56,11 +55,11 @@ namespace ParameterListComparer
                         differenceMessage = $"{locationSpecifierPrefix} {property.Name}: {thisValue} != {otherValue}";
                     }
 
-                    differences.Add(differenceMessage);
+                    results.Differences.Add(differenceMessage);
                 }
             }
 
-            return (parameterMatchCount, differences);
+            return results;
         }
     }
 }
