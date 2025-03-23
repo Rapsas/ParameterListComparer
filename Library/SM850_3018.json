@@ -1,0 +1,272 @@
+[
+ {
+  "name": "Test alarm",
+  "address": "0_0_0",
+  "reference": "al_0_0_test_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Communication error",
+  "address": "0_COM_ERR",
+  "reference": "com_error",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ },
+ {
+  "name": "Communication status",
+  "address": "0_COM_STAT",
+  "reference": "com_stat",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ },
+ {
+  "name": "MAC address",
+  "address": "0_MAC_ADDR",
+  "reference": "sm850_mac_addr",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Model name",
+  "address": "0_MODEL_NAME",
+  "reference": "sm850_model_name",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Software version",
+  "address": "0_SW_VERSION",
+  "reference": "sm850_sw_version",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Unit name",
+  "address": "0_UNIT_NAME",
+  "reference": "sm850_unit_name",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Device is offline",
+  "address": "AL_UNIT_OFFLINE",
+  "reference": "al_iw_extra_unit_offline",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 2,
+  "writeable": "vr"
+ },
+ {
+  "name": "CRITICAL FAILURE: Contact IWMAC Support immediately. Not able to receive alarms",
+  "address": "CRITICAL_ALARM_0_0",
+  "reference": "al_0_0_critical_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm Maskin",
+  "address": "I_0_0_1",
+  "reference": "I_0_0_1",
+  "application": "input",
+  "type": "boolean",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Gassalarm Mineral",
+  "address": "I_0_0_2",
+  "reference": "I_0_0_2",
+  "application": "input",
+  "type": "boolean",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "111:1 U10 Di1 Status",
+  "address": "I_111_10_1",
+  "reference": "I_111_10_1",
+  "application": "input",
+  "type": "boolean",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "111:2 U37 Di2 Status",
+  "address": "I_111_10_2",
+  "reference": "I_111_10_2",
+  "application": "input",
+  "type": "boolean",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "005:1 U10 Di1 Status",
+  "address": "I_5_10_1",
+  "reference": "I_5_10_1",
+  "application": "input",
+  "type": "boolean",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Unknown Alarm",
+  "address": "UNKNOWN_0_0",
+  "reference": "unknown_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm maskin: Input ON",
+  "address": "al_0_0_1_10",
+  "reference": "al_0_0_1_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm maskin: Input cycles ON\/OFF",
+  "address": "al_0_0_1_11",
+  "reference": "al_0_0_1_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm maskin: Input OFF",
+  "address": "al_0_0_1_9",
+  "reference": "al_0_0_1_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm mineral: Input ON",
+  "address": "al_0_0_2_10",
+  "reference": "al_0_0_2_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm mineral: Input cycles ON\/OFF",
+  "address": "al_0_0_2_11",
+  "reference": "al_0_0_2_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Gassalarm mineral: Input OFF",
+  "address": "al_0_0_2_9",
+  "reference": "al_0_0_2_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:1 u10 DI1 Status: Input ON",
+  "address": "al_111_10_1_10",
+  "reference": "al_111_10_1_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:1 u10 DI1 Status: Input cycles ON\/OFF",
+  "address": "al_111_10_1_11",
+  "reference": "al_111_10_1_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:1 u10 DI1 Status: Input OFF",
+  "address": "al_111_10_1_9",
+  "reference": "al_111_10_1_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:2 u37 DI2 Status: Input ON",
+  "address": "al_111_10_2_10",
+  "reference": "al_111_10_2_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:2 u37 DI2 Status: Input cycles ON\/OFF",
+  "address": "al_111_10_2_11",
+  "reference": "al_111_10_2_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "111:2 u37 DI2 Status: Input OFF",
+  "address": "al_111_10_2_9",
+  "reference": "al_111_10_2_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "005:1 u10 DI1 status: Input ON",
+  "address": "al_5_10_1_10",
+  "reference": "al_5_10_1_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "005:1 u10 DI1 status: Input cycles ON\/OFF",
+  "address": "al_5_10_1_11",
+  "reference": "al_5_10_1_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "005:1 u10 DI1 status: Input OFF",
+  "address": "al_5_10_1_9",
+  "reference": "al_5_10_1_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ }
+]

@@ -1,0 +1,913 @@
+[
+ {
+  "name": "Defrost Start",
+  "address": "0_4_1012",
+  "reference": "Settings_0_4_1012",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "rw"
+ },
+ {
+  "name": "Allow remote start of defrost",
+  "address": "0_4_1026",
+  "reference": "Settings_0_4_1026",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "rw"
+ },
+ {
+  "name": "Defrost State",
+  "address": "0_4_1035",
+  "reference": "Readouts_0_4_1035",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Selected Application",
+  "address": "0_4_10999",
+  "reference": "Settings_0_4_10999",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 8,
+  "writeable": "rw"
+ },
+ {
+  "name": "Delay for door alarm. If set to zero then alarm is turned off",
+  "address": "0_4_11000",
+  "reference": "Settings_0_4_11000",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "writeable": "rw"
+ },
+ {
+  "name": "Defrost stop temperature",
+  "address": "0_4_11001",
+  "reference": "Settings_0_4_11001",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 6,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Max. defrost duration",
+  "address": "0_4_11002",
+  "reference": "Settings_0_4_11002",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 3,
+  "writeable": "rw"
+ },
+ {
+  "name": "Max hold time after coordinated defrost ",
+  "address": "0_4_11003",
+  "reference": "Settings_0_4_11003",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "writeable": "rw"
+ },
+ {
+  "name": "Interval between defrost start",
+  "address": "0_4_11004",
+  "reference": "Settings_0_4_11004",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 8,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Min interval between manual defrost. The time to disable defrost start after a defrost. If set to zero ther is not limit is used",
+  "address": "0_4_11005",
+  "reference": "Settings_0_4_11005",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 7,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11006",
+  "reference": "Settings_0_4_11006",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 9,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11007",
+  "reference": "Settings_0_4_11007",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 10,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11008",
+  "reference": "Settings_0_4_11008",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 11,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11009",
+  "reference": "Settings_0_4_11009",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 12,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11010",
+  "reference": "Settings_0_4_11010",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 13,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11011",
+  "reference": "Settings_0_4_11011",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 14,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11012",
+  "reference": "Settings_0_4_11012",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 15,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost day. Setting of time hour",
+  "address": "0_4_11013",
+  "reference": "Settings_0_4_11013",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 16,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11014",
+  "reference": "Settings_0_4_11014",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 17,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11016",
+  "reference": "Settings_0_4_11016",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 19,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11017",
+  "reference": "Settings_0_4_11017",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 20,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11018",
+  "reference": "Settings_0_4_11018",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 21,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11019",
+  "reference": "Settings_0_4_11019",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 22,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11020",
+  "reference": "Settings_0_4_11020",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 23,
+  "writeable": "rw"
+ },
+ {
+  "name": "Start time for defrost. Setting of time minutes",
+  "address": "0_4_11021",
+  "reference": "Settings_0_4_11021",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 24,
+  "writeable": "rw"
+ },
+ {
+  "name": "Defrosting Method",
+  "address": "0_4_11022",
+  "reference": "Settings_0_4_11022",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 5,
+  "writeable": "rw"
+ },
+ {
+  "name": "CCU Power up delay",
+  "address": "0_4_11023",
+  "reference": "Settings_0_4_11023",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 10,
+  "writeable": "rw"
+ },
+ {
+  "name": "Time between melt periods",
+  "address": "0_4_11024",
+  "reference": "Settings_0_4_11024",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 5,
+  "writeable": "rw"
+ },
+ {
+  "name": "Duration of melt period",
+  "address": "0_4_11025",
+  "reference": "Settings_0_4_11025",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 6,
+  "writeable": "rw"
+ },
+ {
+  "name": "Lower temperature limit to start melt",
+  "address": "0_4_11026",
+  "reference": "Settings_0_4_11026",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 7,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Higher temperature limit to start melt",
+  "address": "0_4_11027",
+  "reference": "Settings_0_4_11027",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 8,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Display local alarms",
+  "address": "0_4_11028",
+  "reference": "Settings_0_4_11028",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 9,
+  "writeable": "rw"
+ },
+ {
+  "name": "Reference Temperature Tref",
+  "address": "0_4_11029",
+  "reference": "Readouts_0_4_11029",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Default capacity Day",
+  "address": "0_4_11030",
+  "reference": "Settings_0_4_11030",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 10,
+  "writeable": "rw"
+ },
+ {
+  "name": "Default capacity Night",
+  "address": "0_4_11031",
+  "reference": "Settings_0_4_11031",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 11,
+  "writeable": "rw"
+ },
+ {
+  "name": "Requested capacity ",
+  "address": "0_4_11032",
+  "reference": "Settings_0_4_11032",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 12,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "SLV state",
+  "address": "0_4_11033",
+  "reference": "Readouts_0_4_11033",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Alarm Temperature Talarm",
+  "address": "0_4_11034",
+  "reference": "Readouts_0_4_11034",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 5,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Displayed Temperature Tdisp (shown on MMI display)",
+  "address": "0_4_11035",
+  "reference": "Readouts_0_4_11035",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 11,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Test Mode (selection)",
+  "address": "0_4_11036",
+  "reference": "Settings_0_4_11036",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 11,
+  "writeable": "rw"
+ },
+ {
+  "name": "R1 test control",
+  "address": "0_4_11037",
+  "reference": "Settings_0_4_11037",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 12,
+  "writeable": "rw"
+ },
+ {
+  "name": "R2 test control",
+  "address": "0_4_11038",
+  "reference": "Settings_0_4_11038",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 13,
+  "writeable": "rw"
+ },
+ {
+  "name": "R3 test control",
+  "address": "0_4_11039",
+  "reference": "Settings_0_4_11039",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 14,
+  "writeable": "rw"
+ },
+ {
+  "name": "R4 test control",
+  "address": "0_4_11040",
+  "reference": "Settings_0_4_11040",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 15,
+  "writeable": "rw"
+ },
+ {
+  "name": "R5 test control",
+  "address": "0_4_11041",
+  "reference": "Settings_0_4_11041",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 16,
+  "writeable": "rw"
+ },
+ {
+  "name": "F4 Temperature value",
+  "address": "0_4_11042",
+  "reference": "Readouts_0_4_11042",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 9,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "F1 Temperature value",
+  "address": "0_4_11043",
+  "reference": "Readouts_0_4_11043",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 6,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "F2 Temperature value",
+  "address": "0_4_11044",
+  "reference": "Readouts_0_4_11044",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 7,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "F3 Temperature value",
+  "address": "0_4_11046",
+  "reference": "Readouts_0_4_11046",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 8,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Delay for temperature alarm in temperature control mode",
+  "address": "0_4_11047",
+  "reference": "Settings_0_4_11047",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 16,
+  "writeable": "rw"
+ },
+ {
+  "name": "Delay for temperature alarm after other operating modes (power up, case cleaning etc) ",
+  "address": "0_4_11048",
+  "reference": "Settings_0_4_11048",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 13,
+  "writeable": "rw"
+ },
+ {
+  "name": "High alarm limit ",
+  "address": "0_4_11049",
+  "reference": "Settings_0_4_11049",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 14,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Low alarm limit ",
+  "address": "0_4_11050",
+  "reference": "Settings_0_4_11050",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 15,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "Active Alarm",
+  "address": "0_4_11051",
+  "reference": "Readouts_0_4_11051",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Actual Speed in RPM",
+  "address": "0_4_11052",
+  "reference": "Readouts_0_4_11052",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Defrost Temperature Tdefr",
+  "address": "0_4_11053",
+  "reference": "Readouts_0_4_11053",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 12,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Display local alarms (Alarm on relay)",
+  "address": "0_4_11054",
+  "reference": "Settings_0_4_11054",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 14,
+  "writeable": "rw"
+ },
+ {
+  "name": "Auto Acknowledge Timer",
+  "address": "0_4_11055",
+  "reference": "Settings_0_4_11055",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 15,
+  "writeable": "rw"
+ },
+ {
+  "name": "Stop Mode",
+  "address": "0_4_116",
+  "reference": "Settings_0_4_116",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "rw"
+ },
+ {
+  "name": "Night offset",
+  "address": "0_4_124",
+  "reference": "Settings_0_4_124",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "scale": "2",
+  "writeable": "rw"
+ },
+ {
+  "name": "Night setback",
+  "address": "0_4_125",
+  "reference": "Readouts_0_4_125",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Temperature F1\/F2_F4offset",
+  "address": "0_4_174",
+  "reference": "Readouts_0_4_174",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 7,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Application selection via MMI",
+  "address": "0_4_177",
+  "reference": "Settings_0_4_177",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 9,
+  "writeable": "rw"
+ },
+ {
+  "name": "Appliance Status",
+  "address": "0_4_178",
+  "reference": "Readouts_0_4_178",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Temperature for display (selected source)",
+  "address": "0_4_179",
+  "reference": "Readouts_0_4_179",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Display minimum limit temperature",
+  "address": "0_4_180",
+  "reference": "Settings_0_4_180",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "rw"
+ },
+ {
+  "name": "DI double function",
+  "address": "0_4_19999",
+  "reference": "Readouts_0_4_19999",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Evaporator temperature too high",
+  "address": "0_4_20000",
+  "reference": "alarms_0_4_20000",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Max defrost time",
+  "address": "0_4_20001",
+  "reference": "alarms_0_4_20001",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 17,
+  "writeable": "r"
+ },
+ {
+  "name": "Defrost Hold Timeout",
+  "address": "0_4_20002",
+  "reference": "alarms_0_4_20002",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 16,
+  "writeable": "r"
+ },
+ {
+  "name": "Low temperature alarm",
+  "address": "0_4_20004",
+  "reference": "alarms_0_4_20004",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "High temperature alarm",
+  "address": "0_4_20005",
+  "reference": "alarms_0_4_20005",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Temperature logger alarm",
+  "address": "0_4_20006",
+  "reference": "alarms_0_4_20006",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Alarm on DI",
+  "address": "0_4_20007",
+  "reference": "alarms_0_4_20007",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Appliance error",
+  "address": "0_4_20008",
+  "reference": "alarms_0_4_20008",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "F1 Sensor error",
+  "address": "0_4_20009",
+  "reference": "alarms_0_4_20009",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "F2 Sensor error",
+  "address": "0_4_20010",
+  "reference": "alarms_0_4_20010",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "F3 Sensor error",
+  "address": "0_4_20011",
+  "reference": "alarms_0_4_20011",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "F4 Sensor error",
+  "address": "0_4_20013",
+  "reference": "alarms_0_4_20013",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "No Application selected",
+  "address": "0_4_20014",
+  "reference": "alarms_0_4_20014",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Electronic Fault",
+  "address": "0_4_20015",
+  "reference": "alarms_0_4_20015",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Motor Fault",
+  "address": "0_4_20016",
+  "reference": "alarms_0_4_20016",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Case cleaning done",
+  "address": "0_4_20017",
+  "reference": "alarms_0_4_20017",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Service mode",
+  "address": "0_4_20018",
+  "reference": "Readouts_0_4_20018",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Alarm on DI",
+  "address": "0_4_20019",
+  "reference": "alarms_0_4_20019",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 15,
+  "writeable": "r"
+ },
+ {
+  "name": "Software version",
+  "address": "0_4_2002",
+  "reference": "Readouts_0_4_2002",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "--- OrderNoLow",
+  "address": "0_4_2010",
+  "reference": "Readouts_0_4_2010",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 16,
+  "writeable": "r"
+ },
+ {
+  "name": "S\/O Number",
+  "address": "0_4_2014",
+  "reference": "Readouts_0_4_2014",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Defrost hold state",
+  "address": "0_4_2021",
+  "reference": "Readouts_0_4_2021",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Remote light ON",
+  "address": "0_4_2057",
+  "reference": "Settings_0_4_2057",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 3,
+  "writeable": "rw"
+ },
+ {
+  "name": "Actual Temperature Tact",
+  "address": "0_4_2610",
+  "reference": "Readouts_0_4_2610",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 3,
+  "scale": "1",
+  "writeable": "r"
+ },
+ {
+  "name": "Setpoint Temperature Tset",
+  "address": "0_4_2621",
+  "reference": "Settings_0_4_2621",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 13,
+  "scale": "1",
+  "writeable": "rw"
+ },
+ {
+  "name": "RTC Hour",
+  "address": "0_4_64044",
+  "reference": "Settings_0_4_64044",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 0,
+  "writeable": "rw"
+ },
+ {
+  "name": "RTC Minute",
+  "address": "0_4_64045",
+  "reference": "Settings_0_4_64045",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 1,
+  "writeable": "rw"
+ },
+ {
+  "name": "RTC Day",
+  "address": "0_4_64046",
+  "reference": "Settings_0_4_64046",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 2,
+  "writeable": "rw"
+ },
+ {
+  "name": "RTC Month",
+  "address": "0_4_64047",
+  "reference": "Settings_0_4_64047",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 3,
+  "writeable": "rw"
+ },
+ {
+  "name": "RTC Year",
+  "address": "0_4_64048",
+  "reference": "Settings_0_4_64048",
+  "application": "Integral values",
+  "type": "integer",
+  "order": 4,
+  "writeable": "rw"
+ },
+ {
+  "name": "Communication error",
+  "address": "0_COM_ERR",
+  "reference": "com_error",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ },
+ {
+  "name": "Communication status",
+  "address": "0_COM_STAT",
+  "reference": "com_stat",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ }
+]

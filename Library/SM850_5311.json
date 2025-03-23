@@ -1,0 +1,965 @@
+[
+ {
+  "name": "Test alarm",
+  "address": "0_0_0",
+  "reference": "al_0_0_test_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Communication error",
+  "address": "0_COM_ERR",
+  "reference": "com_error",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ },
+ {
+  "name": "Communication status",
+  "address": "0_COM_STAT",
+  "reference": "com_stat",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "ar"
+ },
+ {
+  "name": "MAC address",
+  "address": "0_MAC_ADDR",
+  "reference": "sm850_mac_addr",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Model name",
+  "address": "0_MODEL_NAME",
+  "reference": "sm850_model_name",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Software version",
+  "address": "0_SW_VERSION",
+  "reference": "sm850_sw_version",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Unit name",
+  "address": "0_UNIT_NAME",
+  "reference": "sm850_unit_name",
+  "application": "sm850_info",
+  "type": "string",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Device is offline",
+  "address": "AL_UNIT_OFFLINE",
+  "reference": "al_iw_extra_unit_offline",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 2,
+  "writeable": "vr"
+ },
+ {
+  "name": "CRITICAL FAILURE: Contact IWMAC Support immediately. Not able to receive alarms",
+  "address": "CRITICAL_ALARM_0_0",
+  "reference": "al_0_0_critical_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "Misc Input 01",
+  "address": "I_0_0_2",
+  "reference": "I_0_0_2",
+  "application": "input",
+  "type": "boolean",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "020:1 VSD Min Speed",
+  "address": "I_20_10_1",
+  "reference": "I_20_10_1",
+  "application": "input",
+  "type": "boolean",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh",
+  "address": "M_0_1.O0",
+  "reference": "M_0_1.O0",
+  "application": "Meter 1",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Kw",
+  "address": "M_0_1.O1",
+  "reference": "M_0_1.O1",
+  "application": "Meter 1",
+  "type": "float",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Tm",
+  "address": "M_0_1.O10",
+  "reference": "M_0_1.O10",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Epoch",
+  "address": "M_0_1.O11",
+  "reference": "M_0_1.O11",
+  "application": "Meter 1",
+  "type": "int",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Dt",
+  "address": "M_0_1.O12",
+  "reference": "M_0_1.O12",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Tm",
+  "address": "M_0_1.O13",
+  "reference": "M_0_1.O13",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Epoch",
+  "address": "M_0_1.O14",
+  "reference": "M_0_1.O14",
+  "application": "Meter 1",
+  "type": "int",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk",
+  "address": "M_0_1.O2",
+  "reference": "M_0_1.O2",
+  "application": "Meter 1",
+  "type": "float",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Hourly",
+  "address": "M_0_1.O3",
+  "reference": "M_0_1.O3",
+  "application": "Meter 1",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Last Hour",
+  "address": "M_0_1.O4",
+  "reference": "M_0_1.O4",
+  "application": "Meter 1",
+  "type": "int",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Daily",
+  "address": "M_0_1.O5",
+  "reference": "M_0_1.O5",
+  "application": "Meter 1",
+  "type": "float",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Pkdt",
+  "address": "M_0_1.O6",
+  "reference": "M_0_1.O6",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Pktm",
+  "address": "M_0_1.O7",
+  "reference": "M_0_1.O7",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Epoch",
+  "address": "M_0_1.O8",
+  "reference": "M_0_1.O8",
+  "application": "Meter 1",
+  "type": "int",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Dt",
+  "address": "M_0_1.O9",
+  "reference": "M_0_1.O9",
+  "application": "Meter 1",
+  "type": "string",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh",
+  "address": "M_0_2.O0",
+  "reference": "M_0_2.O0",
+  "application": "Meter 2",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Kw",
+  "address": "M_0_2.O1",
+  "reference": "M_0_2.O1",
+  "application": "Meter 2",
+  "type": "float",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Tm",
+  "address": "M_0_2.O10",
+  "reference": "M_0_2.O10",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Epoch",
+  "address": "M_0_2.O11",
+  "reference": "M_0_2.O11",
+  "application": "Meter 2",
+  "type": "int",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Dt",
+  "address": "M_0_2.O12",
+  "reference": "M_0_2.O12",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Tm",
+  "address": "M_0_2.O13",
+  "reference": "M_0_2.O13",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Epoch",
+  "address": "M_0_2.O14",
+  "reference": "M_0_2.O14",
+  "application": "Meter 2",
+  "type": "int",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk",
+  "address": "M_0_2.O2",
+  "reference": "M_0_2.O2",
+  "application": "Meter 2",
+  "type": "float",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Hourly",
+  "address": "M_0_2.O3",
+  "reference": "M_0_2.O3",
+  "application": "Meter 2",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Last Hour",
+  "address": "M_0_2.O4",
+  "reference": "M_0_2.O4",
+  "application": "Meter 2",
+  "type": "int",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Daily",
+  "address": "M_0_2.O5",
+  "reference": "M_0_2.O5",
+  "application": "Meter 2",
+  "type": "float",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Pkdt",
+  "address": "M_0_2.O6",
+  "reference": "M_0_2.O6",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Pktm",
+  "address": "M_0_2.O7",
+  "reference": "M_0_2.O7",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Epoch",
+  "address": "M_0_2.O8",
+  "reference": "M_0_2.O8",
+  "application": "Meter 2",
+  "type": "int",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Dt",
+  "address": "M_0_2.O9",
+  "reference": "M_0_2.O9",
+  "application": "Meter 2",
+  "type": "string",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh",
+  "address": "M_0_3.O0",
+  "reference": "M_0_3.O0",
+  "application": "Meter 3",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Kw",
+  "address": "M_0_3.O1",
+  "reference": "M_0_3.O1",
+  "application": "Meter 3",
+  "type": "float",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Tm",
+  "address": "M_0_3.O10",
+  "reference": "M_0_3.O10",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Epoch",
+  "address": "M_0_3.O11",
+  "reference": "M_0_3.O11",
+  "application": "Meter 3",
+  "type": "int",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Dt",
+  "address": "M_0_3.O12",
+  "reference": "M_0_3.O12",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Tm",
+  "address": "M_0_3.O13",
+  "reference": "M_0_3.O13",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Epoch",
+  "address": "M_0_3.O14",
+  "reference": "M_0_3.O14",
+  "application": "Meter 3",
+  "type": "int",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk",
+  "address": "M_0_3.O2",
+  "reference": "M_0_3.O2",
+  "application": "Meter 3",
+  "type": "float",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Hourly",
+  "address": "M_0_3.O3",
+  "reference": "M_0_3.O3",
+  "application": "Meter 3",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Last Hour",
+  "address": "M_0_3.O4",
+  "reference": "M_0_3.O4",
+  "application": "Meter 3",
+  "type": "int",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Daily",
+  "address": "M_0_3.O5",
+  "reference": "M_0_3.O5",
+  "application": "Meter 3",
+  "type": "float",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Pkdt",
+  "address": "M_0_3.O6",
+  "reference": "M_0_3.O6",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Pktm",
+  "address": "M_0_3.O7",
+  "reference": "M_0_3.O7",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Epoch",
+  "address": "M_0_3.O8",
+  "reference": "M_0_3.O8",
+  "application": "Meter 3",
+  "type": "int",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Dt",
+  "address": "M_0_3.O9",
+  "reference": "M_0_3.O9",
+  "application": "Meter 3",
+  "type": "string",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh",
+  "address": "M_0_4.O0",
+  "reference": "M_0_4.O0",
+  "application": "Meter 4",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Kw",
+  "address": "M_0_4.O1",
+  "reference": "M_0_4.O1",
+  "application": "Meter 4",
+  "type": "float",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Tm",
+  "address": "M_0_4.O10",
+  "reference": "M_0_4.O10",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Epoch",
+  "address": "M_0_4.O11",
+  "reference": "M_0_4.O11",
+  "application": "Meter 4",
+  "type": "int",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Dt",
+  "address": "M_0_4.O12",
+  "reference": "M_0_4.O12",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Tm",
+  "address": "M_0_4.O13",
+  "reference": "M_0_4.O13",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Epoch",
+  "address": "M_0_4.O14",
+  "reference": "M_0_4.O14",
+  "application": "Meter 4",
+  "type": "int",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk",
+  "address": "M_0_4.O2",
+  "reference": "M_0_4.O2",
+  "application": "Meter 4",
+  "type": "float",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Hourly",
+  "address": "M_0_4.O3",
+  "reference": "M_0_4.O3",
+  "application": "Meter 4",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Last Hour",
+  "address": "M_0_4.O4",
+  "reference": "M_0_4.O4",
+  "application": "Meter 4",
+  "type": "int",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Daily",
+  "address": "M_0_4.O5",
+  "reference": "M_0_4.O5",
+  "application": "Meter 4",
+  "type": "float",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Pkdt",
+  "address": "M_0_4.O6",
+  "reference": "M_0_4.O6",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Pktm",
+  "address": "M_0_4.O7",
+  "reference": "M_0_4.O7",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Epoch",
+  "address": "M_0_4.O8",
+  "reference": "M_0_4.O8",
+  "application": "Meter 4",
+  "type": "int",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Dt",
+  "address": "M_0_4.O9",
+  "reference": "M_0_4.O9",
+  "application": "Meter 4",
+  "type": "string",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh",
+  "address": "M_0_5.O0",
+  "reference": "M_0_5.O0",
+  "application": "Meter 5",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Kw",
+  "address": "M_0_5.O1",
+  "reference": "M_0_5.O1",
+  "application": "Meter 5",
+  "type": "float",
+  "order": 1,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Tm",
+  "address": "M_0_5.O10",
+  "reference": "M_0_5.O10",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 10,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Epoch",
+  "address": "M_0_5.O11",
+  "reference": "M_0_5.O11",
+  "application": "Meter 5",
+  "type": "int",
+  "order": 11,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Dt",
+  "address": "M_0_5.O12",
+  "reference": "M_0_5.O12",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 12,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Tm",
+  "address": "M_0_5.O13",
+  "reference": "M_0_5.O13",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 13,
+  "writeable": "r"
+ },
+ {
+  "name": "Kwh Reset Epoch",
+  "address": "M_0_5.O14",
+  "reference": "M_0_5.O14",
+  "application": "Meter 5",
+  "type": "int",
+  "order": 14,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk",
+  "address": "M_0_5.O2",
+  "reference": "M_0_5.O2",
+  "application": "Meter 5",
+  "type": "float",
+  "order": 2,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Hourly",
+  "address": "M_0_5.O3",
+  "reference": "M_0_5.O3",
+  "application": "Meter 5",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Last Hour",
+  "address": "M_0_5.O4",
+  "reference": "M_0_5.O4",
+  "application": "Meter 5",
+  "type": "int",
+  "order": 4,
+  "writeable": "r"
+ },
+ {
+  "name": "Acc Kwh Daily",
+  "address": "M_0_5.O5",
+  "reference": "M_0_5.O5",
+  "application": "Meter 5",
+  "type": "float",
+  "order": 5,
+  "writeable": "r"
+ },
+ {
+  "name": "Pkdt",
+  "address": "M_0_5.O6",
+  "reference": "M_0_5.O6",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "Pktm",
+  "address": "M_0_5.O7",
+  "reference": "M_0_5.O7",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 7,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Epoch",
+  "address": "M_0_5.O8",
+  "reference": "M_0_5.O8",
+  "application": "Meter 5",
+  "type": "int",
+  "order": 8,
+  "writeable": "r"
+ },
+ {
+  "name": "Pk Reset Dt",
+  "address": "M_0_5.O9",
+  "reference": "M_0_5.O9",
+  "application": "Meter 5",
+  "type": "string",
+  "order": 9,
+  "writeable": "r"
+ },
+ {
+  "name": "tesing rele ole",
+  "address": "R_20_10_9",
+  "reference": "R_20_10_9",
+  "application": "relay",
+  "type": "boolean",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "020:1 Sc3 Air On",
+  "address": "S_20_10_17",
+  "reference": "S_20_10_17",
+  "application": "sensor",
+  "type": "float",
+  "order": 6,
+  "writeable": "r"
+ },
+ {
+  "name": "testing verdi",
+  "address": "S_20_10_18",
+  "reference": "S_20_10_18",
+  "application": "sensor",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "002:1 --- Sw Version",
+  "address": "S_2_10_17",
+  "reference": "S_2_10_17",
+  "application": "sensor",
+  "type": "float",
+  "order": 3,
+  "writeable": "r"
+ },
+ {
+  "name": "Unknown Alarm",
+  "address": "UNKNOWN_0_0",
+  "reference": "unknown_alarm",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 0,
+  "writeable": "vr"
+ },
+ {
+  "name": "tesing var ut ole",
+  "address": "VO_20_11_26",
+  "reference": "VO_20_11_26",
+  "application": "var_output",
+  "type": "float",
+  "order": 0,
+  "writeable": "r"
+ },
+ {
+  "name": "Misc Input 01: Input ON",
+  "address": "al_0_0_2_10",
+  "reference": "al_0_0_2_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 2,
+  "writeable": "vr"
+ },
+ {
+  "name": "Misc Input 01: Input cycles ON\/OFF",
+  "address": "al_0_0_2_11",
+  "reference": "al_0_0_2_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 3,
+  "writeable": "vr"
+ },
+ {
+  "name": "Misc Input 01: Input OFF",
+  "address": "al_0_0_2_9",
+  "reference": "al_0_0_2_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "020:1 Sc3 Air On: High temp",
+  "address": "al_20_10_17_0",
+  "reference": "al_20_10_17_0",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 7,
+  "writeable": "vr"
+ },
+ {
+  "name": "020:1 Sc3 Air On: Low temp",
+  "address": "al_20_10_17_1",
+  "reference": "al_20_10_17_1",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 8,
+  "writeable": "vr"
+ },
+ {
+  "name": "testing verdi: High temp",
+  "address": "al_20_10_18_0",
+  "reference": "al_20_10_18_0",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "testing verdi: Low temp",
+  "address": "al_20_10_18_1",
+  "reference": "al_20_10_18_1",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 2,
+  "writeable": "vr"
+ },
+ {
+  "name": "020:1 VSD Min Speed: Input ON",
+  "address": "al_20_10_1_10",
+  "reference": "al_20_10_1_10",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 6,
+  "writeable": "vr"
+ },
+ {
+  "name": "020:1 VSD Min Speed: Input cycles ON\/OFF",
+  "address": "al_20_10_1_11",
+  "reference": "al_20_10_1_11",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 7,
+  "writeable": "vr"
+ },
+ {
+  "name": "020:1 VSD Min Speed: Input OFF",
+  "address": "al_20_10_1_9",
+  "reference": "al_20_10_1_9",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 5,
+  "writeable": "vr"
+ },
+ {
+  "name": "tesing rele ole: Relay ON",
+  "address": "al_20_10_9_6",
+  "reference": "al_20_10_9_6",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 1,
+  "writeable": "vr"
+ },
+ {
+  "name": "tesing rele ole: Relay OFF",
+  "address": "al_20_10_9_7",
+  "reference": "al_20_10_9_7",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 2,
+  "writeable": "vr"
+ },
+ {
+  "name": "tesing rele ole: Relay cycles ON\/OFF",
+  "address": "al_20_10_9_8",
+  "reference": "al_20_10_9_8",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 3,
+  "writeable": "vr"
+ },
+ {
+  "name": "002:1 --- Sw Version: High ",
+  "address": "al_2_10_17_0",
+  "reference": "al_2_10_17_0",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 4,
+  "writeable": "vr"
+ },
+ {
+  "name": "002:1 --- Sw Version: Low ",
+  "address": "al_2_10_17_1",
+  "reference": "al_2_10_17_1",
+  "application": "Alarm",
+  "type": "alarm",
+  "order": 5,
+  "writeable": "vr"
+ }
+]
